@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="container-fluid bg-dark" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-lg bg-dark container">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><b>SHOPCART</b></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <div id="carouselExampleIndicators" class="carousel slide carousel-container">
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    class="d-block carousel-img w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1483181957632-8bda974cbc91?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    class="d-block carousel-img w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://plus.unsplash.com/premium_photo-1683121817275-85d1dcf9e4c4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    class="d-block carousel-img w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+        <div class="bg-black"></div>
+    </div>
+
+
+
+    </div>
+
+    <!-- products -->
+
+    <div class="container-fluid mt-5 mb-5">
+        <div class="container">
+            <h1>Products</h1>
+        </div>
+        <div class="container">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur aut veniam nam facilis expedita ad
+                perferendis laborum eaque suscipit perspiciatis tempore, aspernatur labore exercitationem odio
+                doloremque illum repudiandae eius ducimus!
+                Esse beatae enim quas sit aut vel libero earum qui non in ex soluta quae doloremque, sequi mollitia
+                expedita ut debitis facere cumque pariatur, adipisci inventore praesentium recusandae perspiciatis?
+                Recusandae.</p>
+        </div>
+
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col">
+                    <div class="card card-data">
+                        <div style="height: 300px; overflow: hidden;">
+                            <img src="https://plus.unsplash.com/premium_photo-1668319915382-4b87088b8a94?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                            <button class="btn btn-dark">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-data">
+                        <div style="height: 300px; overflow: hidden;">
+                            <img src="https://images.unsplash.com/photo-1738895006827-cd2158effac0?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                            <button class="btn btn-dark">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-data">
+                        <div style="height: 300px; overflow: hidden;">
+                            <img src="https://plus.unsplash.com/premium_photo-1717529136632-e5ec141d1b1d?q=80&w=826&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                            <button class="btn btn-dark">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-data">
+                        <div style="height: 300px; overflow: hidden;">
+                            <img src="https://images.unsplash.com/photo-1706876431105-7ddcb403de55?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                            <button class="btn btn-dark">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-data">
+                        <div style="height: 300px; overflow: hidden;">
+                            <img src="https://plus.unsplash.com/premium_photo-1668319915382-4b87088b8a94?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                            <button class="btn btn-dark">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-data">
+                        <div style="height: 300px; overflow: hidden;">
+                            <img src="https://images.unsplash.com/photo-1738895006827-cd2158effac0?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                            <button class="btn btn-dark">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-data">
+                        <div style="height: 300px; overflow: hidden;">
+                            <img src="https://plus.unsplash.com/premium_photo-1717529136632-e5ec141d1b1d?q=80&w=826&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                            <button class="btn btn-dark">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-data">
+                        <div style="height: 300px; overflow: hidden;">
+                            <img src="https://images.unsplash.com/photo-1706876431105-7ddcb403de55?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                            <button class="btn btn-dark">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- contact us section -->
+    <div class="container-fluid pt-5 pb-5" style="background-color: #fff5f5; ">
+        <div class="container">
+            <h1>Get in Touch</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem nesciunt eos suscipit voluptatem. Ex
+                animi exercitationem molestiae tempora provident quia sit, architecto obcaecati. Totam repellendus quam
+                in quis nostrum similique!
+                Asperiores eveniet doloremque exercitationem omnis iusto magni ex ab enim? Obcaecati eum vero neque
+                possimus tempora nulla, tempore aliquid magnam sit debitis esse. Similique esse, quia veniam sunt totam
+                modi!</p>
+        </div>
+        <div class="container d-flex">
+            <div class="w-50 pb-5 pe-5 ps-5 d-flex flex-column gap-4 " style="height: 400px;">
+                <h3 class="mb-4">Visit Our Shop</h3>
+
+                <div class="d-flex gap-2 w-100">
+                    <div class="w-20 d-flex align-items-center justify-content-center rounded-circle"
+                        style="height: 40px; width: 40px; background-color: #ffd8a1;">
+                        <i class="fa-solid fa-location-dot fs-5" style="color: #f68383;"></i>
+                    </div>
+                    <div class="" style="width: 260px;">
+                        <h5>Address</h3>
+                            <p style="font-size: 13px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Quisquam, voluptatum.</p>
+                    </div>
+                </div>
+
+                <div class="d-flex gap-2 w-100">
+                    <div class="w-20 d-flex align-items-center justify-content-center rounded-circle"
+                        style="height: 40px; width: 40px; background-color: #ffd8a1;">
+                        <i class="fa-solid fa-phone fs-5" style="color: #f68383;"></i>
+                    </div>
+                    <div class="" style="width: 260px;">
+                        <h5>Phone</h3>
+                            <p style="font-size: 13px;">+91 9146341851</p>
+                    </div>
+                </div>
+
+                <div class="d-flex gap-2 w-100">
+                    <div class="w-20 d-flex align-items-center justify-content-center rounded-circle"
+                        style="height: 40px; width: 40px; background-color: #ffd8a1;">
+                        <i class="fa-solid fa-envelope fs-5" style="color: #f68383;"></i>
+                    </div>
+                    <div class="" style="width: 260px;">
+                        <h5>Email</h3>
+                            <p style="font-size: 13px;">sumedh@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="d-flex gap-2 w-100">
+                    <div class="w-20 d-flex align-items-center justify-content-center rounded-circle"
+                        style="height: 40px; width: 40px; background-color: #ffd8a1;">
+                        <i class="fa-solid fa-store fs-5" style="color: #f68383;"></i>
+                    </div>
+                    <div class="" style="width: 260px;">
+                        <h5>Store Hours</h3>
+                            <p style="font-size: 13px;">Monday-Friday</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="w-50 pb-5 pe-5 ">
+                <h2>Send us a Message</h2>
+                <div class="d-flex flex-column gap-3">
+                    <label for="name" class="fw-bold">Name</label>
+                    <input type="text" class="form-control border-secondary" placeholder="Enter your name">
+                    <label for="email" class="fw-bold">Email</label>
+                    <input type="email" class="form-control border-secondary" placeholder="Enter your email">
+                    <label for="message" class="fw-bold">Message</label>
+                    <textarea class="form-control border-secondary" rows="4"
+                        placeholder="Enter your message"></textarea>
+                    <button class="btn btn-dark">Send Message</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- // footer -->
+
+    <div class="container-fluid bg-dark pt-5 pb-2">
+        <div class="container text-white">
+            <div class="row">
+                <div class="col">
+                    <h1><b>SHOPCART</b></h1>
+                    <p class="text-">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae consequatur
+                        commodi, error quod quidem sint ab similique optio sunt, obcaecati sapiente magnam quibusdam
+                        tempora.</p>
+                </div>
+                <div class="col">
+                    <h2>Shop</h2>
+                    <p>Women</p>
+                    <p>Men</p>
+                    <p>Kids</p>
+                    <p>Sale</p>
+                </div>
+                <div class="col">
+                    <h2>Customer Care</h2>
+                    <p>Contact Us</p>
+                    <p>Size Guide</p>
+                    <p>Shopping & Returns</p>
+                    <p>FAQ</p>
+                </div>
+                <div class="col">
+                    <h2>Company</h2>
+                    <p>About Us</p>
+                    <p>Careers</p>
+                    <p>Privacy Policy</p>
+                    <p>Terms of Service</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-dark pb-2">
+        <div class="container text-white border-top pt-3">
+            <p class="text-center">© 2025 SHOPCART. All rights reserved.</p>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
